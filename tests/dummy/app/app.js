@@ -2,6 +2,9 @@ import Ember from 'ember';
 import Resolver from 'ember/resolver';
 import loadInitializers from 'ember/load-initializers';
 import config from './config/environment';
+import initializeDeprecationWarning from 'ember-deprecated-string-fmt';
+
+initializeDeprecationWarning();
 
 var App;
 

@@ -1,6 +1,15 @@
 # Ember-deprecated-string-fmt
 
-This README outlines the details of collaborating on this Ember addon.
+Allows you to deprecate Ember.String.fmt usage by monkey-patching Ember.String.fmt.
+
+## Usage
+
+```js
+// app.js
+import initializeDeprecationWarning from 'ember-deprecated-string-fmt';
+
+initializeDeprecationWarning();
+```
 
 ## Installation
 
